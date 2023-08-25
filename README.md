@@ -2,7 +2,7 @@
 
 For this project, I used Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
 
-**Analysis**
+# Analysis
 
 You are the new Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
 
@@ -124,7 +124,7 @@ Create a table that breaks down school performance based on school size (small, 
 # Scores by School Type
 Create a table that breaks down school performance based on school type (district or charter).
 
-**Findings** 
+# Findings
 
 1. Looking at the District Summary, we can conclude that over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
 2. When we break the average and math reading scores down further, we can see that Cabrera High School has the highest combined average of math and average reading scores, while Rodgriguez High School has the lowest combined average of math and average reading scores. 
