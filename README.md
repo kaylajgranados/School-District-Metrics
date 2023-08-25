@@ -1,13 +1,13 @@
 # School-District-Metrics
 
-**Written Analysis**
+For this project, I used Python Pandas library to analyze sample school district test scores and provide recommendations. This was a project for the UCI Data Analytics and Visualization Bootcamp. 
 
-Here are my conclusions about completing the PyCitySchool Challenge:  
+**Recommendations**
 
-1. Looking at the District Summary, we can conclude that total over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
-2. When we break the average and math reading scores down even further, we can see that Cabrera High School has the highest combined average of math and average reading scores, while Rodgriguez High School has the lowest combined average of math and average reading scores. 
+1. Looking at the District Summary, we can conclude that over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
+2. When we break the average and math reading scores down further, we can see that Cabrera High School has the highest combined average of math and average reading scores, while Rodgriguez High School has the lowest combined average of math and average reading scores. 
 3. When we look closer at both Cabrera High School and Rodriguez High School, we can see that the average math and reading scores are close across all grades.
-4. As the new Chief Data Scientist for the city's school district, I would choose to focus on improving the math scores at the schools with the lowest average scores, beginning with Cabrera High School. 
+4. I would recommend focusing on improving the math scores at the schools with the lowest average scores, beginning with Cabrera High School. 
 
 
 #Background
