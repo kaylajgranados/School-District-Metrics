@@ -1,6 +1,6 @@
 # School-District-Metrics
 
-For this project, I used Python Pandas library to analyze sample school district test scores and provide recommendations. This was a project for the UCI Data Analytics and Visualization Bootcamp. 
+For this project, I used Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
 
 **Recommendations**
 
