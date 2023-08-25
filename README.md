@@ -2,6 +2,10 @@
 
 For this project, I used Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
 
+![education](https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/bad26034-f5ec-4719-bdcd-f56264702897)
+
+
+
 # Analysis
 
 You are the new Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
