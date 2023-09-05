@@ -13,28 +13,31 @@ I conducted an analysis of school district math and reading scores to ascertain 
 
 To start, I looked at summary statistics at the district level, including the total number of schools, total number of students, total budget, average math score, average reading score, percentage of students passing math, percentage of students passing reading, and percentage of students passing math and reading. 
 
-I used the len and unique functions to count the total schools in the districts. 
+I used the len and unique functions to count the unique school names. 
 
 <img width="578" alt="Screen Shot 2023-09-04 at 9 50 44 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/8f4b5d9b-5e80-4bd5-9868-2031f0cce48c">
 
 I used the count, sum, and mean functions to calculate the total number of students, total budget, and average math and reading scores. 
 
-[insert screenshot]
+<img width="523" alt="Screen Shot 2023-09-04 at 9 53 37 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/65bceda8-4ab6-4f0f-ad0c-c277ae62bb79">
 
 
 # School Summary
-Then, I looked more closely at individual schools, focusing on the total number of students, total school budget, per student budget, average math score, average reading score, percentage passing math, percentage passing reading, and percentage passing math and reading. 
+Then, I analyzed data for the distinct schools in the district, creating a data frame with the total number of students, total school budget, per student budget, average math score, average reading score, percentage passing math, percentage passing reading, and percentage passing math and reading. 
 
-I used loc and groupby to find the percentage of students passing and math at reading at each school. This allowed me to locate the learners with passing grades and then aggregate this together to calculate the percentage. 
+I used the loc and groupby functions to determine the percentage of students who achieved passing grades in both math and reading at each school. This allowed me to compute the number of learners with passing grades and then calculate the overall percentage for each school.  
 
-I filtered by highest-performing schools and lowest-performing schools. 
+<img width="1077" alt="Screen Shot 2023-09-04 at 9 56 51 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/242f9b56-bf57-471e-936d-ef0ff69eaabc">
 
-Then, I looked more closely at the grades in the schools. I looked at the math scores and the reading scores by each grade, also using loc, groupby, and mean.  
+I also examined the data based on school grade level. I used loc, groupby, and mean functions to analyze the math scores and the reading scores by grade. 
 
+<img width="679" alt="Screen Shot 2023-09-04 at 10 02 53 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/05c626e5-e029-4b6b-8ef4-04337c9109e3">
 
 # Findings
 
-1. Looking at the District Summary DataFrame, we can conclude that over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
-2. When we break the average and math reading scores down further, we can see that Cabrera High School has the highest combined average of math and average reading scores, while Rodgriguez High School has the lowest combined average of math and average reading scores. 
-3. When we look closer at both Cabrera High School and Rodriguez High School, we can see that the average math and reading scores are close across all grades.
-4. I would recommend focusing on improving the math scores at the schools with the lowest average scores, beginning with Cabrera High School. 
+1. We can conclude that, across all 15 schools, 74.9% of students received passing math scores, 85% received passing reading scores, and 65% received passing math and reading scores. 
+3. When we look at the school summary statistics, we can see that Cabrera High School has the highest overall passing percentage, while Rodgriguez High School has the lowest passing percentage.  
+4. When we look at the analysis by grade level, we can see that the math and reading scores are consistent across all grade levels at both Cabera High School and Rodriguez High School. 
+5. I would recommend focusing on improving the math scores at the schools with the lowest percentage passing, beginning with Rodriguez High School.
+
+
