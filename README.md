@@ -7,7 +7,7 @@ For this project, I used the Python Pandas library to analyze district-wide stan
 
 # Analysis
 
-I conducted an analysis of school district math and reading scores to ascertain which schools have the highest-performing students on tests. 
+I conducted an analysis of school district math and reading scores to determine which schools have the highest-performing students on tests. 
 
 # District Summary
 
