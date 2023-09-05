@@ -1,129 +1,38 @@
 # School-District-Metrics
 
-For this project, I used Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
+For this project, I used the Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
 
 ![education](https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/bad26034-f5ec-4719-bdcd-f56264702897)
 
 
-
 # Analysis
 
-# District Summary
-Create a high-level snapshot of the district's key metrics in a DataFrame, including the following:
+I analyzed data about school district size and budget and student math and reading scores to determine which schools' students are performing the best and tests and if funding is making a difference in their test scores. 
 
-Total schools
+To start, I looked at summary statistics at the district level, including the total number of schools, total number of students, total budget, average math score, average reading score, percentage of students passing math, percentage of students passing reading, and percentage of students passing math and reading. 
 
-Total students
+I used the len and unique functions to count the total schools. 
 
-Total budget
+[insert screenshot]
 
-Average math score
+I used the count, sum, and mean functions to calculate the total number of students, total budget, and average math and reading scores. 
 
-Average reading score
+[insert screenshot]
 
-% passing math (the percentage of students who passed math)
-
-% passing reading (the percentage of students who passed reading)
-
-% overall passing (the percentage of students who passed math AND reading)
 
 # School Summary
-Create a DataFrame that summarizes key metrics about each school, including the following:
+Then, I looked more closely at individual schools, focusing on the total number of students, total school budget, per student budget, average math score, average reading score, percentage passing math, percentage passing reading, and percentage passing math and reading. 
 
-School name
+I used loc and groupby to find the percentage of students passing and math at reading at each school. This allowed me to locate the learners with passing grades and then aggregate this together to calculate the percentage. 
 
-School type
+I filtered by highest-performing schools and lowest-performing schools. 
 
-Total students
+Then, I looked more closely at the grades in the schools. I looked at the math scores and the reading scores by each grade, also using loc, groupby, and mean.  
 
-Total school budget
-
-Per student budget
-
-Average math score
-
-Average reading score
-
-% passing math (the percentage of students who passed math)
-
-% passing reading (the percentage of students who passed reading)
-
-% overall passing (the percentage of students who passed math AND reading)
-
-# Highest-Performing Schools (by % Overall Passing)
-Create a DataFrame that highlights the top-5 performing schools based on % Overall Passing. Include the following metrics:
-
-School name
-
-School type
-
-Total students
-
-Total school budget
-
-Per student budget
-
-Average math score
-
-Average reading score
-
-% passing math (the percentage of students who passed math)
-
-% passing reading (the percentage of students who passed reading)
-
-% overall passing (the percentage of students who passed math AND reading)
-
-# Lowest-Performing Schools (by % Overall Passing)
-Create a DataFrame that highlights the bottom-5 performing schools based on % Overall Passing. Include the following metrics:
-
-School name
-
-School type
-
-Total students
-
-Total school budget
-
-Per student budget
-
-Average math score
-
-Average reading score
-
-% passing math (the percentage of students who passed math)
-
-% passing reading (the percentage of students who passed reading)
-
-% overall passing (the percentage of students who passed math AND reading)
-
-# Math Scores by Grade
-Create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-# Reading Scores by Grade
-Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-# Scores by School Spending
-Create a table that breaks down school performance based on average spending ranges (per student). Use your judgment to create four bins with reasonable cutoff values to group school spending. Include the following metrics in the table:
-
-Average math score
-
-Average reading score
-
-% passing math (the percentage of students who passed math)
-
-% passing reading (the percentage of students who passed reading)
-
-% overall passing (the percentage of students who passed math AND reading)
-
-# Scores by School Size
-Create a table that breaks down school performance based on school size (small, medium, or large).
-
-# Scores by School Type
-Create a table that breaks down school performance based on school type (district or charter).
 
 # Findings
 
-1. Looking at the District Summary, we can conclude that over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
+1. Looking at the District Summary DataFrame, we can conclude that over the 15 schools, the average reading score (81.9%) is higher than the average math score (78.9%). 
 2. When we break the average and math reading scores down further, we can see that Cabrera High School has the highest combined average of math and average reading scores, while Rodgriguez High School has the lowest combined average of math and average reading scores. 
 3. When we look closer at both Cabrera High School and Rodriguez High School, we can see that the average math and reading scores are close across all grades.
 4. I would recommend focusing on improving the math scores at the schools with the lowest average scores, beginning with Cabrera High School. 
