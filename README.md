@@ -15,11 +15,11 @@ To start, I looked at summary statistics at the district level, including the to
 
 I used the len and unique functions to count the unique school names. 
 
-<img width="578" alt="Screen Shot 2023-09-04 at 9 50 44 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/8f4b5d9b-5e80-4bd5-9868-2031f0cce48c">
+<img width="542" alt="Screen Shot 2023-09-04 at 10 13 21 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/fd2489e6-1d61-49c5-9487-38562eb7d874">
 
 I used the count, sum, and mean functions to calculate the total number of students, total budget, and average math and reading scores. 
 
-<img width="523" alt="Screen Shot 2023-09-04 at 9 53 37 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/65bceda8-4ab6-4f0f-ad0c-c277ae62bb79">
+<img width="678" alt="Screen Shot 2023-09-04 at 10 13 55 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/a3bc7da1-7c2d-4753-851f-94a61631ed38">
 
 
 # School Summary
@@ -31,11 +31,12 @@ I used the loc and groupby functions to determine the percentage of students who
 
 I also examined the data based on school grade level. I used loc, groupby, and mean functions to analyze the math scores and the reading scores by grade. 
 
-<img width="679" alt="Screen Shot 2023-09-04 at 10 02 53 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/05c626e5-e029-4b6b-8ef4-04337c9109e3">
+<img width="598" alt="Screen Shot 2023-09-04 at 10 14 26 PM" src="https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/12490713-dfed-432f-a5bd-fdd7fb5b87cc">
+
 
 # Findings
 
-1. We can conclude that, across all 15 schools, 74.9% of students received passing math scores, 85% received passing reading scores, and 65% received passing math and reading scores. 
+1. We can conclude that, across all 15 schools, 74.9% of students received passing math scores, 85.8% received passing reading scores, and 65.2% received passing math and reading scores. 
 3. When we look at the school summary statistics, we can see that Cabrera High School has the highest overall passing percentage, while Rodgriguez High School has the lowest passing percentage.  
 4. When we look at the analysis by grade level, we can see that the math and reading scores are consistent across all grade levels at both Cabera High School and Rodriguez High School. 
 5. I would recommend focusing on improving the math scores at the schools with the lowest percentage passing, beginning with Rodriguez High School.
