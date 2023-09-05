@@ -9,6 +9,8 @@ For this project, I used the Python Pandas library to analyze district-wide stan
 
 I analyzed data about school district size and budget and student math and reading scores to determine which schools' students are performing the best and tests and if funding is making a difference in their test scores. 
 
+#District Summary
+
 To start, I looked at summary statistics at the district level, including the total number of schools, total number of students, total budget, average math score, average reading score, percentage of students passing math, percentage of students passing reading, and percentage of students passing math and reading. 
 
 I used the len and unique functions to count the total schools. 
