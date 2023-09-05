@@ -1,6 +1,6 @@
 # School-District-Metrics
 
-For this project, I used the Python Pandas library to analyze district-wide standardized test results and aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
+For this project, I used the Python Pandas library to analyze district-wide standardized test results and I aggregated data to show trends in school performance. This was a project for the UCI Data Analytics Bootcamp. 
 
 ![education](https://github.com/kaylajgranados/School-District-Metrics/assets/83734241/bad26034-f5ec-4719-bdcd-f56264702897)
 
